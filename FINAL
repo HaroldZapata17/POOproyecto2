@@ -1,7 +1,10 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
+//Este programa desarrolla un sudoku, rellenado con ceros (0), la persona tendrá que llenar las casillas según las posiciones
+//Ejem: posicion x: 0, posicion y: 0, numero a agregar = 0.
+// Ganas si has llenado bien el sudoku, la validación es si los cuadrantes de 3 x 3 las filas y columnas suman 45.
+//Disfruta el juego :).
 void tablero2(){
   int sudoku[9][9] = {};
   for(int i=0; i < 9; i++){
